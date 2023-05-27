@@ -72,5 +72,6 @@ void rentRoom(std::string clientName){
         fileRoom.close();
 
         system("pause");
+        system("cls");
     }
 }
