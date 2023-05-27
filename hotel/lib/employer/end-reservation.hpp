@@ -44,6 +44,11 @@ void endReservation(){
                     room["occupied"] = false;
                     clientFinded = true;
                     std::cout << clientName << "'s reservation closed!\n";
+                    std::ofstream updateData("lib/hotel/room.json", std::ios::trunc);
+                    if (updateData.is_open()) {
+                        updateData << std::setw(4) << jsonData << std::endl;
+                        updateData.close();
+                    }
                     break;
                 }
             }
