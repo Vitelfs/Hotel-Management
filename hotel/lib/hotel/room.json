@@ -1,0 +1,63 @@
+{
+    "category": {
+        "basic": [
+            {
+                "number": "101",
+                "occupied": false,
+                "price": 50
+            },
+            {
+                "number": "102",
+                "occupied": false,
+                "occupiedBy": null,
+                "price": 50
+            },
+            {
+                "number": "400",
+                "occupied": false,
+                "occupiedBy": null,
+                "price": 50
+            }
+        ],
+        "lux": [
+            {
+                "number": "201",
+                "occupied": false,
+                "occupiedBy": null,
+                "price": 100
+            },
+            {
+                "number": "202",
+                "occupied": false,
+                "occupiedBy": null,
+                "price": 100
+            },
+            {
+                "number": "401",
+                "occupied": false,
+                "occupiedBy": null,
+                "price": 100
+            },
+            {
+                "number": "203",
+                "occupied": false,
+                "occupiedBy": null,
+                "price": 100
+            }
+        ],
+        "superlux": [
+            {
+                "number": "301",
+                "occupied": false,
+                "occupiedBy": null,
+                "price": 150
+            },
+            {
+                "number": "302",
+                "occupied": false,
+                "occupiedBy": null,
+                "price": 150
+            }
+        ]
+    }
+}
