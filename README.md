@@ -5,3 +5,8 @@ change password, delete the account, and view their reservations. When the user 
 
 On the employee's view, they have more options such as listing all the hotel rooms, listing all available rooms, listing all registered customers, 
 canceling a reservation, and adding a room. All the information is saved in JSON files for future queries. I used two external libraries: 'date' and 'nlohmann'.
+
+
+Libs:
+https://github.com/nlohmann/json //json
+https://github.com/HowardHinnant/date //date
