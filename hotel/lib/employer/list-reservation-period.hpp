@@ -59,9 +59,9 @@ void listReservationPerPeriod(){
             }
         }
         if(!reservFind){
-            std::cout << "There's no reserves at that period!\n";
-            system("pause");
-            system("cls");         
+            std::cout << "There's no reserves at that period!\n";       
         }
     }
+    system("pause");
+    system("cls");  
 }
